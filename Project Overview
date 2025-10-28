@@ -1,0 +1,54 @@
+Summery:
+To do this project, I used the CarPrice_Assignment, Which includes technical and specialized information on several types of cars along with their prices.  I extracted the data from the Kaggle site. In fact, This project is based on a fictional car exhibition. The existing database has several files in CSV format and contains information about the technical and appearance details of several car models in a car exhibition. Analyzing this information, along with the prices of the cars, can help the salesperson to introduce the best option to the customer and also help the customer to make the right choice for buying a car.
+Using Python software allows us to analyze the overall status of the car exhibition and present a picture of a suitable purchase to the customer using the extensive Python library package and the desired functions and formulas.
+Database:
+Database contains the entities below:
+There is one CSV file “CarPrice_Assignment”  whose fields and records are as follows:
+26 fields & 205 records
+car_ID:  Unique id of each observation (interger)
+Symbolling:  Its assigned insurance risk rating, A value of +3 indicates that the auto is risky, -3 that it is probably pretty safe. (Categorical)
+CarName:  Name of car company. (Categorical)
+Fueltype:  Car fuel type i.e. gas or diesel. (Categorical)
+Aspiration:  Aspiration used in a car. (Categorical)
+Doornumber:  Number of doors in a car. (Categorical)
+Carbody:  Body of car. (Categorical)
+Drivewheel: Type of drive wheel. (Categorical)
+Enginelocation: Location of car engine. (Categorical)
+Wheelbase:  Wheelbase of car. (Numeric)
+Carlength:  Length of car. (Numeric)
+Carwidth:  Width of car. (Numeric)
+Carheight:  Height of car. (Numeric)
+Curbweight:  The weight of a car without occupants or baggage. (Numeric)
+Enginetype: Type of engine.  (Categorical)
+Cylindernumber:  Cylinder placed in the car. (Categorical)
+Enginesize:  Size of car. (Numeric)
+Fuelsystem:  Fuel system of car. (Categorical)
+Boreratio: Boreratio of car. (Numeric)
+Stroke:  Stroke or volume inside the engine. (Numeric)
+Compressionratio:  Compression ratio of car. (Numeric)
+Horsepower:  Horsepower. (Numeric)
+Peakrpm: Car peak rmp. (Numeric)
+Citympg:  Mileage in city. (Numeric)
+Highwaympg:  Mileage on highway. (Numeric)
+Price:  Price of car. (Numeric)
+Questions & Goals:
+1-Does the existing database have duplicate data or NaN?
+2-How does the type of engine affect the price of a car?
+3-How does the price of a cylinder affect the price of a car?
+4-What is the average price of cars with an ohcv engine type?
+5-What is the average price of cars based on engine type?
+6-What is the average price of cars based on the number of cylinders?
+7-How much does a car's maximum engine speed (peak rpm) affect citympg and highwaympg?
+8-How do you check the numerical correlation between them?
+9-Scatterplot analysis of peak rpm and citympg
+10-Scatterplot analysis of peak rpm and highwaympg
+11-Regression Plot between peak rpm and citympg & highwaympg.
+12-Bar chart that shows the names of 20 cars with the average numerical values of weight, length, width, and height, and aggregates the data.
+13-Pie chart of the overall average of the top 5 cars.
+14-Bar chart analysis of car names with symbolling
+15-Bar chart analysis for dividing and labeling cars based on the actual price distribution into three groups: Economy, Medium, and luxury.
+16-What percentage of cars with the Medium label based on the Doornumber column have two doors?
+17-If a customer wants to buy a Medium car that meets the following requirements, which car would you recommend? It should be light weight, low fuel consumption, have two doors, have high engine power, and be priced around 20,000.
+18-If a car with the stated conditions cannot be found, what would be the closest alternative, for example, a car that is slightly more expensive or has a slight difference in weight?
+19-Choosing the top three cars based on desired features.
+20-The bar chart of comparing the top three cars and comparing their weight, power, and price?
