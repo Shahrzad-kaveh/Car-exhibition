@@ -32,7 +32,7 @@ Citympg:  Mileage in city. (Numeric)
 Highwaympg:  Mileage on highway. (Numeric)
 Price:  Price of car. (Numeric)
 Questions & Goals:
-1-Does the existing database have duplicate data or NaN?
+1-Does the existing database have duplicate data or Nan?
 2-How does the type of engine affect the price of a car?
 3-How does the price of a cylinder affect the price of a car?
 4-What is the average price of cars with an ohcv engine type?
@@ -56,8 +56,8 @@ Using data from a hypothetical car exhibition in CSV format extracted from the K
 Data Cleaning:
 -Remove duplicate names:
 A set of tabulated forms is presented that removes and presents duplicate information. This duplicate information has been identified and removed based on the name of the cars.
--Finding and removing NaN:
-From a general perspective, it is quite clear that the system did not find an empty row and there were no NaNs.
+-Finding and removing Nan:
+From a general perspective, it is quite clear that the system did not find an empty row and there were no Nans.
 Analysis:
 After preparing and cleaning the data, I need to code using Python to answer the questions and objectives.
 -Analysis of the impact of enginetype and cylandernumber on the price of a car:
@@ -102,7 +102,7 @@ The pie chart compares the proportion of average weight, length, width and heigh
 In total, the five selected cars have the same percentages, with a slight difference.
 -Bar chart analysis of car names with symbolling
 I want to draw a bar chart where the horizontal bar displays the car name and the vertical bar displays the symboling.  The symbol is a symbol for the insurance risk rating assigned to vehicles. Its value varies between +3 and -3. +3 indicates that the vehicle is high risk and -3 indicates that it is probably completely safe.  Because the number of cars is large, we will select and examine 15 cars for better readability of the chart.
-Symboling data usually indicates the insurance risk of a vehicle, or its riskiness in terms of accident and insurance cost.  The detailed explanation of symboling numbers is as follows:
+Symbolling data usually indicates the insurance risk of a vehicle, or its riskiness in terms of accident and insurance cost.  The detailed explanation of symboling numbers is as follows:
 -2 Very low risk / Low risk
 -1 Low risk / Low risk
 0 Moderate / Normal
